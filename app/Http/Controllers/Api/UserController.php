@@ -26,4 +26,16 @@ class UserController extends Controller
 
         return new UserResource($user);
     }
+
+    public function show(string $id)
+    {
+        // $user = User::find($id);
+        // $user = User::where('id', '=', $id)->first();
+        // if (!$user) {
+        //     return response()->json(['message' => 'user not found'], 404);
+        // }
+        $user = User::findOrFail($id);
+
+        return new UserResource($user);
+    }
 }
