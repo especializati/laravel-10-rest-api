@@ -1,22 +1,17 @@
 
-# Setup Docker Para Projetos Laravel (8, 9 ou 10)
-[Assine a Academy, e Seja VIP!](https://academy.especializati.com.br)
+# Introdução à Rest APIs com Laravel 10.x
 
-### Passo a passo
+- :movie_camera: [Acesse a Aula](https://www.youtube.com/watch?v=AO3gug_3DRs).
+
+
+Links Úteis:
+
+- :tada: [Saiba Mais](https://linktr.ee/especializati)
+
+## Passo a passo para rodar o projeto
 Clone Repositório
 ```sh
-git clone https://github.com/especializati/setup-docker-laravel.git
-```
-
-Clone os Arquivos do Laravel
-```sh
-git clone https://github.com/laravel/laravel.git app-laravel
-```
-
-
-Copie os arquivos docker-compose.yml, Dockerfile e o diretório docker/ para o seu projeto
-```sh
-cp -rf setup-docker-laravel/* app-laravel/
+git clone https://github.dev/especializati/laravel-10-rest-api.git app-laravel
 ```
 ```sh
 cd app-laravel/
